@@ -1,0 +1,45 @@
+# Research Analyst Assessment - .gitignore
+# This prevents candidates from accidentally uploading their solutions
+
+# Candidate submission files
+*.pptx
+*.ppt
+*.pdf
+# Uncomment the line below if you don't want the assessment PDF in the repo
+# Research_Analyst_Assessment_Mar2026.pdf
+
+# Code files (candidate solutions)
+*.do
+*.R
+*.py
+*.ipynb
+*.sas
+*.stata
+
+# Output files
+*.log
+*.png
+*.jpg
+*.jpeg
+*.svg
+*.html
+
+# Temporary/system files
+.DS_Store
+Thumbs.db
+*.tmp
+~$*
+
+# IDE/editor files
+.vscode/
+.idea/
+*.Rproj
+.Rproj.user/
+*.swp
+*.swo
+*~
+
+# Data files (if candidates create modified versions)
+*_modified.dta
+*_cleaned.dta
+*_analysis.dta
